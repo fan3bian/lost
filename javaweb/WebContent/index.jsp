@@ -8,8 +8,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h2>hah<%Person p = new Person("name",12); 
-		System.out.println(p);
-	%></h2>
+	<form action="">index
+		<input name="name"/>
+		<input name="password"/>
+	</form>
 </body>
 </html>
