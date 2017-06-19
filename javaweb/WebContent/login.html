@@ -5,10 +5,17 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action="loginServlet" method="post">
-		Name:<input type="text" name="name"/><br/>
+	<form action="loginServlet" method="GET">
+		User:<input type="text" name="user"/><br/>
 		Password:<input type="text" name="password"/>
 		<input type="submit" value="submit"/>
+		<br/>
+		<input type="checkbox" name="interests" value="reading">Reading
+		<input type="checkbox" name="interests" value="game">Game
+		<input type="checkbox" name="interests" value="party">Party
+		<input type="checkbox" name="interests" value="shopping">Shopping
+		<input type="checkbox" name="interests" value="sport">Sport
+		<input type="checkbox" name="interests" value="moive">Moive
 	</form>
 </body>
 </html>
