@@ -30,8 +30,8 @@ public class HelloServlet implements Servlet {
 
 	@Override
 	public void init(ServletConfig servletConfig) throws ServletException {
-		String user = servletConfig.getInitParameter("user");
-		System.out.println(user);
+//		String user = servletConfig.getInitParameter("user");
+//		System.out.println(user);
 		Enumeration<String> params = servletConfig.getInitParameterNames();//inverted order?
 		while (params.hasMoreElements()) {
 			String name = params.nextElement();
