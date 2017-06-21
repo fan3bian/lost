@@ -16,13 +16,18 @@
 	<%
 		String ageStr = request.getParameter("age");
 		Integer age = Integer.parseInt(ageStr);
-		if(age>=18)
+		if (age >= 18) {
 	%>
-		成人
+	成人
 	<%
-		else
+		} else {
 	%>
-		未成年人
-		
+	未成年人
+	<%
+		}
+	%>
+	<%-- 
+		<%System.out.print("Comment"); %>
+	--%>
 </body>
 </html>
