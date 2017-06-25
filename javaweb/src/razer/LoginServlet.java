@@ -3,6 +3,7 @@ package razer;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Arrays;
+import java.util.Date;
 import java.util.Enumeration;
 import java.util.Map;
 
@@ -75,5 +76,7 @@ public class LoginServlet implements Servlet {
 		out.print("PrintWriter out");
 		
 	}
-
+	public static void main(String[] args) {
+		Date d =new Date();
+	}
 }
