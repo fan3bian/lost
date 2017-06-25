@@ -1,4 +1,4 @@
-package httpcomponet.test;
+package httpcomponent.test;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package httpcomponet.test;
+package httpcomponent.test;
 
 import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
