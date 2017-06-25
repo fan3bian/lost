@@ -38,5 +38,7 @@
 	<form action="">
 		index <input name="name" /> <input name="password" />
 	</form>
+	<a href="forwardServlet">forward</a>
+	<a href="redirectServlet">redirectServlet</a>
 </body>
 </html>
