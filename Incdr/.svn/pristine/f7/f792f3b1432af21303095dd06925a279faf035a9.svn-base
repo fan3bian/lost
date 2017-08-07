@@ -1,0 +1,155 @@
+/**
+ * 
+ */
+package com.inspur.incdr.enhance.modal.request;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import org.apache.http.Header;
+
+/**
+ * simple introduction
+ * 
+ * <p>
+ * detailed comment
+ * 
+ * @author zhangshuyi 2017年8月7日
+ * @see
+ * @since 1.0
+ */
+public class InCdreRequest {
+    // URI uri;
+
+    private String scheme = "http";
+    private String host;
+    private Integer port;
+    private String username;
+    private String password;
+    private String path;
+    private List<Header> headers = new ArrayList<>();
+    private Map<String, String> params = new HashMap<>();
+
+    /**
+     * @return the path
+     */
+    public String getPath() {
+        return path;
+    }
+
+    /**
+     * @return the scheme
+     */
+    public String getScheme() {
+        return scheme;
+    }
+
+    /**
+     * @param scheme
+     *            the scheme to set
+     */
+    public void setScheme(String scheme) {
+        this.scheme = scheme;
+    }
+
+    /**
+     * @param path
+     *            the path to set
+     */
+    public void setPath(String path) {
+        this.path = path;
+    }
+
+    /**
+     * @return the headers
+     */
+    public List<Header> getHeaders() {
+        return headers;
+    }
+
+    /**
+     * @param headers
+     *            the headers to set
+     */
+    public void setHeaders(List<Header> headers) {
+        this.headers = headers;
+    }
+
+    /**
+     * @return the params
+     */
+    public Map<String, String> getParams() {
+        return params;
+    }
+    /**
+     * @param params
+     *            the params to set
+     */
+    public void setParams(Map<String, String> params) {
+        this.params = params;
+    }
+
+    /**
+     * @return the username
+     */
+    public String getUsername() {
+        return username;
+    }
+
+    /**
+     * @param username
+     *            the username to set
+     */
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    /**
+     * @return the password
+     */
+    public String getPassword() {
+        return password;
+    }
+
+    /**
+     * @param password
+     *            the password to set
+     */
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    /**
+     * @return the host
+     */
+    public String getHost() {
+        return host;
+    }
+
+    /**
+     * @param host
+     *            the host to set
+     */
+    public void setHost(String host) {
+        this.host = host;
+    }
+
+    /**
+     * @return the port
+     */
+    public Integer getPort() {
+        return port;
+    }
+
+    /**
+     * @param port
+     *            the port to set
+     */
+    public void setPort(Integer port) {
+        this.port = port;
+    }
+
+    // public String
+}
